@@ -1,1 +1,0 @@
-# operating_systems_nsu_labs
