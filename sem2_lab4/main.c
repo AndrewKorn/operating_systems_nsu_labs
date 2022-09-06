@@ -25,5 +25,5 @@ int main() {
     }
 
     printf("Hello, World!\n");
-    return 0;
+    thread_exit(NULL);
 }
