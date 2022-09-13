@@ -24,14 +24,14 @@ int main() {
     int status;
     for (int i = 0; i < N; ++i) {
         if ((status = pthread_create(&threads[i], NULL, new_thread_func, lines[i])) != 0) {
-            fprintf(stderr, "can't create thread %d, status = %d\n", i, status);
+            fprintf(stderr, "can't create thread %d, status = %s\n", i, strerror(status));
             return 1;
         }
     }
 
     for (int i = 0; i < N; ++i) {
         if ((status = pthread_join(threads[i], NULL)) != 0) {
-            fprintf(stderr, "can't join thread %d, status = %d\n", i, status);
+            fprintf(stderr, "can't join thread %d, status = %s\n", i, strerror(status));
             return 1;
         }
     }
