@@ -1,0 +1,3 @@
+/home/andrew/NSU/os/operating_systems_nsu_labs/sem2_lab7/cmake-build-debug/CMakeFiles/sem2_lab7.dir
+/home/andrew/NSU/os/operating_systems_nsu_labs/sem2_lab7/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andrew/NSU/os/operating_systems_nsu_labs/sem2_lab7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
